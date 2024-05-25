@@ -1,0 +1,11 @@
+{
+  "files.exclude": {
+    "__init__.py": true,
+    ".gitignore": true,
+    "LICENSE": true,
+    "vite.config.js":true
+  },
+  "workbench.tree.indent": 24,
+  "appService.defaultWebAppToDeploy": "undefined/subscriptions/f9672728-0796-4063-8601-2580dacfd811/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/leoazure",
+  "appService.deploySubpath": "."
+}
