@@ -4,6 +4,7 @@ import os
 ALLOWED_HOSTS = [os.environ['WEBSITE_HOSTNAME']] if 'WEBSITE_HOSTNAME' in os.environ else []
 CSRF_TRUSTED_ORIGINS = ['https://'+ os.environ['WEBSITE_HOSTNAME']] if 'WEBSITE_HOSTNAME' in os.environ else []
 
+SECRET_KEY = 'gHlcL*ZHbRf6g94x0f4lDJn$&yhKBMiP$5bZ@F&VBdueFv8Usq'
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
